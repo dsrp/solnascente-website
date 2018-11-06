@@ -1,5 +1,19 @@
-baseURL = "https://sol.nascente.org/"
+DefaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+
+baseURL = "https://solnascente.eu/"
 languageCode = "en-us"
 title = "Sol Nascente"
 theme = "hugo-now-ui"
 staticDir = ["static"]
+
+[languages]
+  [languages.en]
+    weight = 1
+    languageName = "English"
+  [languages.pt]
+    weight = 2
+    languageName = "Portugês"
+  [languages.es]
+    weight = 3
+    languageName = "Español"
