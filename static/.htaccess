@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteCond %{HTTP:Accept-Language} ^es [NC]
+RewriteRule ^$ /es/ [L,R=301]
+
+RewriteCond %{HTTP:Accept-Language} ^pt [NC]
+RewriteRule ^$ /pt/ [L,R=301]
