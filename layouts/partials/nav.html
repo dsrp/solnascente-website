@@ -16,7 +16,7 @@
     </div>
     <div class="collapse navbar-collapse justify-content-end" id="navigation"
       data-nav-image="{{ "img/blurred-image-1.jpg" | relURL }}">
-      <ul class="navbar-nav  ml-auto">
+      <ul class="navbar-nav ml-auto">
         {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
         <li class="nav-item dropdown">
@@ -45,7 +45,7 @@
         {{ end }}
 
         {{ if .Site.IsMultiLingual }}
-        <li id="language-switch" class="dropdown">
+        <li id="language-switch" class="dropdown ml-3">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
             aria-expanded="false"><i class="fa fa-globe" aria-hidden="true"></i></a>
           <ul class="dropdown-menu">
