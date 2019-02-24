@@ -4,8 +4,9 @@ defaultContentLanguageInSubdir = true
 baseURL = "https://solnascente.eu/"
 languageCode = "en-us"
 title = "Sol Nascente"
-theme = "hugo-now-ui"
+theme = ["hugo-now-ui"]
 staticDir = ["static"]
+
 
 [languages]
   [languages.en]
