@@ -7,7 +7,6 @@ title = "Sol Nascente"
 theme = ["hugo-now-ui"]
 staticDir = ["static"]
 
-
 [languages]
   [languages.en]
     weight = 1
