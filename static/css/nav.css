@@ -8,3 +8,7 @@
 body {
     font-size: medium;
 }
+
+.dropdown {
+    list-style: none
+}
