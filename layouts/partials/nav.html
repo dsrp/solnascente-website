@@ -43,26 +43,34 @@
         </li>
         {{ end }}
         {{ end }}
-
-        {{ if .Site.IsMultiLingual }}
+  <!-- Sidebar social network icons -->
+  <ul class="navbar-nav"><li>
+      {{ with .Site.Params.twitter }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fa fa-twitter fa-2x mx-2"></i></a>{{ end }}
+      {{ with .Site.Params.facebook }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fa fa-facebook fa-2x mx-2"></i></a>{{ end }}
+      {{ with .Site.Params.instagram }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fa fa-instagram fa-2x mx-2"></i></a>{{ end }}
+    </li></ul>
+    <!-- Uncomment to add the RSS icon -->
+    <!-- {{ if .Site.Params.rss }}<a href="{{ "/index.xml" | absURL }}" type="application/rss+xml" title="RSS"><i class="fa fa-rss-square fa-3x"></i></a>{{ end }} -->     
+  
+  {{ if .Site.IsMultiLingual }}
         <li id="language-switch" class="dropdown ml-3">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-            aria-expanded="false"><i class="fa fa-globe" aria-hidden="true"></i></a>
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i
+              class="fa fa-globe fa-2x" aria-hidden="true"></i></a>
           <ul class="dropdown-menu">
             {{ $siteLanguages := .Site.Languages}}
             {{ $pageLang := .Page.Lang}}
             {{ range .Page.AllTranslations }}
             {{ $translation := .}}
-            {{ range $siteLanguages }}
-            {{ if eq $translation.Lang .Lang }}
-            {{ $selected := false }}
-            {{ if eq $pageLang .Lang}}
-            <li><a href="{{ $translation.URL }}" class="dropdown-item active">{{ .LanguageName }}</a></li>
-            {{ else }}
-            <li><a href="{{ $translation.URL }}" class="dropdown-item">{{ .LanguageName }}</a></li>
-            {{ end }}
-            {{ end }}
-            {{ end }}
+              {{ range $siteLanguages }}
+                {{ if eq $translation.Lang .Lang }}
+                  {{ $selected := false }}
+                  {{ if eq $pageLang .Lang}}
+                    <li><a href="{{ $translation.URL }}" class="dropdown-item active">{{ .LanguageName }}</a></li>
+                  {{ else }}
+                    <li><a href="{{ $translation.URL }}" class="dropdown-item">{{ .LanguageName }}</a></li>
+                  {{ end }}
+                {{ end }}
+              {{ end }}
             {{ end }}
           </ul>
         </li>

@@ -17,3 +17,8 @@ staticDir = ["static"]
   [languages.es]
     weight = 3
     languageName = "Español"
+
+[params]
+  instagram = "https://instagram.com/test"
+  facebook = "https://facebook.com/test"
+  twitter = "https://twitter.com/test"
