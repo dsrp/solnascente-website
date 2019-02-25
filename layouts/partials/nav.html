@@ -16,7 +16,7 @@
     </div>
     <div class="collapse navbar-collapse justify-content-end" id="navigation"
       data-nav-image="{{ "img/blurred-image-1.jpg" | relURL }}">
-      <ul class="navbar-nav my-4">
+      <ul class="navbar-nav my-4 mr-auto">
         {{ range .Site.Menus.main }}
           {{ if .HasChildren }}
           <li class="nav-item dropdown">
@@ -43,23 +43,26 @@
           </li>
           {{ end }}
         {{ end }}
+      </ul>
   <!-- Sidebar social network icons -->
-  <ul class="navbar-nav mx-auto my-auto visible-xs"><li>
-      {{ with .Site.Params.twitter }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fa fa-twitter fa-2x mx-2"></i></a>{{ end }}
-      {{ with .Site.Params.facebook }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fa fa-facebook fa-2x mx-2"></i></a>{{ end }}
-      {{ with .Site.Params.instagram }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fa fa-instagram fa-2x mx-2"></i></a>{{ end }}
-    </li>
-  </ul>
+    <ul class="navbar-nav my-auto visible-xs align-items-center">
+      <li>
+        {{ with .Site.Params.mastodon }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fab fa-mastodon fa-2x mx-2"></i></a>{{ end }}
+        {{ with .Site.Params.facebook }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fab fa-facebook fa-2x mx-2"></i></a>{{ end }}
+        {{ with .Site.Params.twitter }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fab fa-twitter fa-2x mx-2"></i></a>{{ end }}
+        {{ with .Site.Params.instagram }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fab fa-instagram fa-2x mx-2"></i></a>{{ end }}
+      </li>
+    </ul>
   
-  {{ if .Site.IsMultiLingual }}
-        <li id="language-switch" class="dropdown ml-3 text-align-right">
+    {{ if .Site.IsMultiLingual }}
+        <li id="language-switch" class="dropdown my-auto ml-3">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i
               class="fa fa-globe fa-2x" aria-hidden="true"></i></a>
           <ul class="dropdown-menu">
             {{ $siteLanguages := .Site.Languages}}
             {{ $pageLang := .Page.Lang}}
             {{ range .Page.AllTranslations }}
-            {{ $translation := .}}
+              {{ $translation := .}}
               {{ range $siteLanguages }}
                 {{ if eq $translation.Lang .Lang }}
                   {{ $selected := false }}
@@ -74,7 +77,6 @@
           </ul>
         </li>
         {{ end }}
-      </ul>
     </div>
   </div>
 </nav>
