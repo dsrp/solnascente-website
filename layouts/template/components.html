@@ -5,6 +5,13 @@
     {{ partial "nav" . }}
     <div class="wrapper">
       {{ .Content }}
+      <div class="main">
+        <div class="container">
+          {{ partial "image_text" }}
+          {{ partial "image_text" }}
+          {{ partial "team" }}
+        </div>
+      </div>
       {{ partial "footer" . }}
     </div>
 </body>
