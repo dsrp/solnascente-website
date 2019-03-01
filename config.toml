@@ -62,7 +62,14 @@ staticDir = ["static"]
     languageName = "Español"
 
 [params]
+<<<<<<< HEAD
   instagram = "https://instagram.com/test"
   facebook = "https://facebook.com/test"
   twitter = "https://twitter.com/test"
   mastodon = "https://scholar.social/@solnascente_eu"
+=======
+  instagram = "https://instagram.com/#"
+  facebook = "https://facebook.com/#"
+  twitter = "https://twitter.com/solnascente_eu"
+  mastodon = "https://scholar.social/@solnascente_eu"
+>>>>>>> Fix social network links

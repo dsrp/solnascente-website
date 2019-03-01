@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="{{ .Language }}">
+<<<<<<< HEAD
   {{ partial "head" . }}
   <body class="profile-page sidebar-collapse">
     {{ partial "nav" . }}
@@ -21,3 +22,21 @@
   </body>
   {{ partial "javascript" . }}
 </html>
+=======
+{{partial "head" . }}
+<body class="profile-page sidebar-collapse">
+  {{ partial "nav" . }}
+  <div class="wrapper">
+    {{ .Content }}
+    <div class="main">
+      <div class="container">
+        {{ partial "mailchimp"}}
+      </div>
+    </div>
+    {{ partial "footer" . }}
+  </div>
+</body>
+{{partial "javascript" . }}
+
+</html>
+>>>>>>> Fix social network links
