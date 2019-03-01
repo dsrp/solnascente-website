@@ -1,42 +1,27 @@
 <!doctype html>
 <html lang="{{ .Language }}">
-<<<<<<< HEAD
-  {{ partial "head" . }}
-  <body class="profile-page sidebar-collapse">
-    {{ partial "nav" . }}
-    <div class="wrapper">
-      {{ .Content }}
-      <div class="main">
-        <div class="container">
-          {{ with .Site.GetPage "/image1" }}
-            {{ partial "image_text" . }}
-          {{ end }}
-          {{ with .Site.GetPage "/image2" }}
-            {{ partial "image_text" . }}
-          {{ end }}
-          {{ partial "team" . }}
-        </div>
-      </div>
-      {{ partial "footer" . }}
-    </div>
-  </body>
-  {{ partial "javascript" . }}
-</html>
-=======
-{{partial "head" . }}
+{{ partial "head" . }}
 
 <body class="profile-page sidebar-collapse">
   {{ partial "nav" . }}
   <div class="wrapper">
     {{ .Content }}
     <div class="main">
+      {{ partial "newsletter/subscribe_toast"}}
+      {{ partial "newsletter/form"}}
       <div class="container">
+        {{ with .Site.GetPage "/image1" }}
+        {{ partial "image_text" . }}
+        {{ end }}
+        {{ with .Site.GetPage "/image2" }}
+        {{ partial "image_text" . }}
+        {{ end }}
+        {{ partial "team" . }}
       </div>
     </div>
     {{ partial "footer" . }}
   </div>
 </body>
-{{partial "javascript" . }}
+{{ partial "javascript" . }}
 
 </html>
->>>>>>> Fix social network links
