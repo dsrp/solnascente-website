@@ -1,5 +1,5 @@
 ---
-title: Second Title
+title: Segundo Títutlo
 content_float: left
 image_src: https://media.gettyimages.com/photos/spring-field-picture-id539016480
 ---

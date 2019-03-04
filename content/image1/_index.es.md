@@ -1,5 +1,5 @@
 ---
-title: Primeito Título
+title: Primer Titulo
 content_float: right
 image_src: https://media.gettyimages.com/photos/tree-in-park-picture-id164850397
 ---
