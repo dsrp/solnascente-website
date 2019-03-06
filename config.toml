@@ -13,7 +13,7 @@ staticDir = ["static"]
     languageName = "English"
   [languages.pt]
     weight = 2
-    languageName = "Portugês"
+    languageName = "Português"
   [languages.es]
     weight = 3
     languageName = "Español"
