@@ -4,11 +4,11 @@
 
 <body class="profile-page sidebar-collapse">
   {{ partial "nav" . }}
+
   <div class="wrapper">
     {{ .Content }}
     <div class="main">
       {{ partial "newsletter/subscribe_toast"}}
-      {{ partial "newsletter/form"}}
       <div class="container">
         {{ with .Site.GetPage "/image1" }}
         {{ partial "image_text" . }}
@@ -18,10 +18,10 @@
         {{ end }}
         {{ partial "team" . }}
       </div>
+      {{ partial "newsletter/form" .}}
     </div>
     {{ partial "footer" . }}
   </div>
 </body>
 {{ partial "javascript" . }}
-
 </html>

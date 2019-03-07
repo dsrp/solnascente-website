@@ -36,13 +36,18 @@
           </li>
           {{ else }}
           <li class="nav-item">
-            <a class="nav-link" href="{{ .URL | relLangURL }}" {{ if $.IsHome }} data-target="{{ .URL }}" {{ end }}>
+            <a class="nav-link" href="{{ .URL | relLangURL }}" {{ if $.IsHome }} data-target="{{ .URL }}" {{end}}>
               {{ .Pre }}
               <span>{{ .Name }}</span>
             </a>
           </li>
           {{ end }}
         {{ end }}
+        <li class="nav-item">
+            <a class="nav-link" data-target="#mailChimp" data-toggle="modal">
+              <span><i class='fa fa-newspaper'></i>  Newsletter</span>
+            </a>
+          </li>
       </ul>
   <!-- Sidebar social network icons -->
     <ul class="navbar-nav my-auto visible-xs align-items-center">

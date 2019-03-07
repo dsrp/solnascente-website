@@ -40,15 +40,7 @@ staticDir = ["static"]
     pre = "<i class='fa fa-heart'></i>"
     url = "/team/"
     weight = -1
-
-  [[menu.main]]
-    identifier = "newsletter"
-    name = "newsletter"
-    pre = "<i class='fa fa-newspaper'></i>"
-    url = "/newsletter/"
-    weight = 0
-
- 
+  
 
 [languages]
   [languages.en]
@@ -62,14 +54,7 @@ staticDir = ["static"]
     languageName = "Español"
 
 [params]
-<<<<<<< HEAD
-  instagram = "https://instagram.com/test"
-  facebook = "https://facebook.com/test"
-  twitter = "https://twitter.com/test"
-  mastodon = "https://scholar.social/@solnascente_eu"
-=======
-  instagram = "https://instagram.com/#"
   facebook = "https://facebook.com/#"
-  twitter = "https://twitter.com/solnascente_eu"
+  instagram = "https://instagram.com/#"
   mastodon = "https://scholar.social/@solnascente_eu"
->>>>>>> Fix social network links
+  twitter = "https://twitter.com/solnascente_eu"
