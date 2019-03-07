@@ -1,0 +1,19 @@
+$primary-color:       #762c1d !default;
+
+.bg-primary {
+  background-color: $primary-color;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+body {
+  font-size: medium;
+}
+
+.dropdown {
+  list-style: none
+}

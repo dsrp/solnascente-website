@@ -6,6 +6,7 @@ languageCode = "en-us"
 title = "Sol Nascente"
 theme = ["hugo-now-ui"]
 staticDir = ["static"]
+assetsDir = ["assets"]
 
 [menu]
 
@@ -40,7 +41,6 @@ staticDir = ["static"]
     pre = "<i class='fa fa-heart'></i>"
     url = "/team/"
     weight = -1
-  
 
 [languages]
   [languages.en]
@@ -58,3 +58,4 @@ staticDir = ["static"]
   instagram = "https://instagram.com/#"
   mastodon = "https://scholar.social/@solnascente_eu"
   twitter = "https://twitter.com/solnascente_eu"
+  
