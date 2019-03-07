@@ -7,8 +7,9 @@
   {{ partial "newsletter/subscribe_toast" . }}
 
   <div class="wrapper">
-
-    {{ .Content }}
+    {{ with .Site.GetPage "/landingMain" }}
+      {{ partial "landingMain" . }}
+    {{ end }}
     <div class="main">
       <div class="container">
         {{ with .Site.GetPage "/image1" }}
@@ -22,7 +23,9 @@
       {{ partial "newsletter/form" .}}
     </div>
   </div>
+
   {{ partial "footer" . }}
+
 
 </body>
 
