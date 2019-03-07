@@ -1,23 +1,29 @@
 <!doctype html>
 <html lang="{{ .Language }}">
-  {{ partial "head" . }}
-  <body class="profile-page sidebar-collapse">
-    {{ partial "nav" . }}
-    <div class="wrapper">
-      {{ .Content }}
-      <div class="main">
-        <div class="container">
-          {{ with .Site.GetPage "/image1" }}
-            {{ partial "image_text" . }}
-          {{ end }}
-          {{ with .Site.GetPage "/image2" }}
-            {{ partial "image_text" . }}
-          {{ end }}
-          {{ partial "team" . }}
-        </div>
+{{ partial "head" . }}
+
+<body class="profile-page sidebar-collapse">
+  {{ partial "nav" . }}
+  {{ partial "newsletter/subscribe_toast" . }}
+
+  <div class="wrapper">
+
+    {{ .Content }}
+    <div class="main">
+      <div class="container">
+        {{ with .Site.GetPage "/image1" }}
+        {{ partial "image_text" . }}
+        {{ end }}
+        {{ with .Site.GetPage "/image2" }}
+        {{ partial "image_text" . }}
+        {{ end }}
+        {{ partial "team" . }}
       </div>
-      {{ partial "footer" . }}
+      {{ partial "newsletter/form" .}}
     </div>
-  </body>
-  {{ partial "javascript" . }}
+    {{ partial "footer" . }}
+  </div>
+</body>
+{{ partial "javascript" . }}
+
 </html>

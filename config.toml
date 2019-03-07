@@ -40,15 +40,7 @@ staticDir = ["static"]
     pre = "<i class='fa fa-heart'></i>"
     url = "/team/"
     weight = -1
-
-  [[menu.main]]
-    identifier = "newsletter"
-    name = "newsletter"
-    pre = "<i class='fa fa-newspaper'></i>"
-    url = "/newsletter/"
-    weight = 0
-
- 
+  
 
 [languages]
   [languages.en]
@@ -62,7 +54,7 @@ staticDir = ["static"]
     languageName = "Español"
 
 [params]
-  instagram = "https://instagram.com/test"
-  facebook = "https://facebook.com/test"
-  twitter = "https://twitter.com/test"
+  facebook = "https://facebook.com/#"
+  instagram = "https://instagram.com/#"
   mastodon = "https://scholar.social/@solnascente_eu"
+  twitter = "https://twitter.com/solnascente_eu"
