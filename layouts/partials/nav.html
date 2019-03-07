@@ -51,12 +51,7 @@
       </ul>
   <!-- Sidebar social network icons -->
     <ul class="navbar-nav my-auto visible-xs align-items-center">
-      <li>
-        {{ with .Site.Params.mastodon }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fab fa-mastodon mx-2"></i></a>{{ end }}
-        {{ with .Site.Params.facebook }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fab fa-facebook mx-2"></i></a>{{ end }}
-        {{ with .Site.Params.twitter }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fab fa-twitter mx-2"></i></a>{{ end }}
-        {{ with .Site.Params.instagram }}<a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fab fa-instagram mx-2"></i></a>{{ end }}
-      </li>
+      {{ partial "social_networks/list" .}}
     </ul>
   
     {{ if .Site.IsMultiLingual }}
