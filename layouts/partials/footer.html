@@ -1,3 +1,4 @@
+{{with .Site.GetPage "/footer" }}
 <div class="footer" data-background-color="black">
   <div class="container text-center">
     <ul>
@@ -9,14 +10,15 @@
       </li>
 
       <li class="mx-5">
-        © 2019 Sol Nascente. All rights reserved.
+        2019 {{ .Site.Title }}. {{ .Params.license }}
       </li>
 
       <li class="mx-5">
         <div class="text-muted">
-          Created by <strong>1313 Labs</strong>.
+          {{ .Params.created_by }} <strong>{{ .Params.creator }}</strong>
         </div>
       </li>
     </ul>
   </div>
 </div>
+{{ end }}
