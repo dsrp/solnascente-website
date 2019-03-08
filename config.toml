@@ -11,32 +11,26 @@ staticDir = ["static"]
 
  [[menu.main]]
     identifier = "market"
-    name = "market landscape"
-    url = "/market/"
+    url = ""
     weight = -5
 
  [[menu.main]]
     identifier = "approach"
-    name = "approach"
-    url = "/approach/"
+    url = ""
     weight = -4
 
  [[menu.main]]
     identifier = "funding"
-    name = "funding"
-    url = "/funding/"
+    url = ""
     weight = -3
-    
-    
+
   [[menu.main]]
     identifier = "contact"
-    name = "contact"
-    url = "/contact/"
+    url = ""
     weight = -2
 
   [[menu.main]]
     identifier = "team"
-    name = "our team"
     pre = "<i class='fa fa-heart'></i>"
     url = "/team/"
     weight = -1
@@ -46,75 +40,49 @@ staticDir = ["static"]
     weight = 1
     languageName = "English"
 
-
  [[languages.en.menu.main]]
     identifier = "market"
     name = "market landscape"
-    url = "/market/"
-    weight = -5
 
  [[languages.en.menu.main]]
     identifier = "approach"
     name = "approach"
-    url = "/approach/"
-    weight = -4
 
  [[languages.en.menu.main]]
     identifier = "funding"
     name = "funding"
-    url = "/funding/"
-    weight = -3
-    
     
   [[languages.en.menu.main]]
     identifier = "contact"
     name = "contact"
-    url = "/contact/"
-    weight = -2
 
   [[languages.en.menu.main]]
     identifier = "team"
     name = "our team"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/team/"
-    weight = -1
 
   [languages.pt]
     weight = 2
     languageName = "Portugês"
 
-
  [[languages.pt.menu.main]]
     identifier = "market"
-    name = "market landscape"
-    url = "/market/"
-    weight = -5
+    name = "mercado"
 
  [[languages.pt.menu.main]]
     identifier = "approach"
     name = "approach"
-    url = "/approach/"
-    weight = -4
 
  [[languages.pt.menu.main]]
     identifier = "funding"
     name = "funding"
-    url = "/funding/"
-    weight = -3
-    
     
   [[languages.pt.menu.main]]
     identifier = "contact"
     name = "contact"
-    url = "/contact/"
-    weight = -2
 
   [[languages.pt.menu.main]]
     identifier = "team"
     name = "nosso time"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/team/"
-    weight = -1
     
   [languages.es]
     weight = 3
@@ -123,34 +91,22 @@ staticDir = ["static"]
  [[languages.en.menu.main]]
     identifier = "market"
     name = "market landscape"
-    url = "/market/"
-    weight = -5
 
  [[languages.en.menu.main]]
     identifier = "approach"
     name = "approach"
-    url = "/approach/"
-    weight = -4
 
  [[languages.en.menu.main]]
     identifier = "funding"
-    name = "funding"
-    url = "/funding/"
-    weight = -3
-    
+    name = "funding"    
     
   [[languages.en.menu.main]]
     identifier = "contact"
     name = "contact"
-    url = "/contact/"
-    weight = -2
 
   [[languages.en.menu.main]]
     identifier = "team"
     name = "our team"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/team/"
-    weight = -1
 
 [params]
   facebook = "https://facebook.com/#"
