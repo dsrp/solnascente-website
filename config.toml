@@ -6,7 +6,6 @@ languageCode = "en-us"
 title = "Sol Nascente"
 theme = ["hugo-now-ui"]
 staticDir = ["static"]
-assetsDir = ["assets"]
 
 [menu]
 
@@ -46,12 +45,112 @@ assetsDir = ["assets"]
   [languages.en]
     weight = 1
     languageName = "English"
+
+
+ [[languages.en.menu.main]]
+    identifier = "market"
+    name = "market landscape"
+    url = "/market/"
+    weight = -5
+
+ [[languages.en.menu.main]]
+    identifier = "approach"
+    name = "approach"
+    url = "/approach/"
+    weight = -4
+
+ [[languages.en.menu.main]]
+    identifier = "funding"
+    name = "funding"
+    url = "/funding/"
+    weight = -3
+    
+    
+  [[languages.en.menu.main]]
+    identifier = "contact"
+    name = "contact"
+    url = "/contact/"
+    weight = -2
+
+  [[languages.en.menu.main]]
+    identifier = "team"
+    name = "our team"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/team/"
+    weight = -1
+
   [languages.pt]
     weight = 2
     languageName = "Portugês"
+
+
+ [[languages.pt.menu.main]]
+    identifier = "market"
+    name = "market landscape"
+    url = "/market/"
+    weight = -5
+
+ [[languages.pt.menu.main]]
+    identifier = "approach"
+    name = "approach"
+    url = "/approach/"
+    weight = -4
+
+ [[languages.pt.menu.main]]
+    identifier = "funding"
+    name = "funding"
+    url = "/funding/"
+    weight = -3
+    
+    
+  [[languages.pt.menu.main]]
+    identifier = "contact"
+    name = "contact"
+    url = "/contact/"
+    weight = -2
+
+  [[languages.pt.menu.main]]
+    identifier = "team"
+    name = "nosso time"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/team/"
+    weight = -1
+    
   [languages.es]
     weight = 3
     languageName = "Español"
+
+ [[languages.en.menu.main]]
+    identifier = "market"
+    name = "market landscape"
+    url = "/market/"
+    weight = -5
+
+ [[languages.en.menu.main]]
+    identifier = "approach"
+    name = "approach"
+    url = "/approach/"
+    weight = -4
+
+ [[languages.en.menu.main]]
+    identifier = "funding"
+    name = "funding"
+    url = "/funding/"
+    weight = -3
+    
+    
+  [[languages.en.menu.main]]
+    identifier = "contact"
+    name = "contact"
+    url = "/contact/"
+    weight = -2
+
+  [[languages.en.menu.main]]
+    identifier = "team"
+    name = "our team"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/team/"
+    weight = -1
 
 [params]
   facebook = "https://facebook.com/#"
@@ -59,3 +158,4 @@ assetsDir = ["assets"]
   mastodon = "https://scholar.social/@solnascente_eu"
   twitter = "https://twitter.com/solnascente_eu"
   
+  custom_css = ["static/css/nav.css"]
