@@ -4,7 +4,7 @@
 
 <body class="profile-page sidebar-collapse">
   {{ partial "nav" . }}
-  {{ partial "newsletter/subscribe_toast" . }}
+  {{ partial "newsletter/subscribeToast" . }}
 
   <div class="wrapper">
     {{ with .Site.GetPage "/landingMain" }}
@@ -13,10 +13,10 @@
     <div class="main">
       <div class="container">
         {{ with .Site.GetPage "/image1" }}
-        {{ partial "image_text" . }}
+        {{ partial "imageText" . }}
         {{ end }}
         {{ with .Site.GetPage "/image2" }}
-        {{ partial "image_text" . }}
+        {{ partial "imageText" . }}
         {{ end }}
         {{ partial "team" . }}
       </div>
