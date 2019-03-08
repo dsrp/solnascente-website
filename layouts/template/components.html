@@ -4,24 +4,29 @@
 
 <body class="profile-page sidebar-collapse">
   {{ partial "nav" . }}
-  {{ partial "newsletter/subscribeToast" . }}
 
   <div class="wrapper">
+
     {{ with .Site.GetPage "/landingMain" }}
       {{ partial "landingMain" . }}
     {{ end }}
+    {{ partial "newsletter/subscribeToast" . }}
+
     <div class="main">
       <div class="container">
         {{ with .Site.GetPage "/image1" }}
-        {{ partial "imageText" . }}
+          {{ partial "imageText" . }}
         {{ end }}
+
         {{ with .Site.GetPage "/image2" }}
-        {{ partial "imageText" . }}
+          {{ partial "imageText" . }}
         {{ end }}
+
         {{ partial "team" . }}
       </div>
       {{ partial "newsletter/form" .}}
     </div>
+
   </div>
 
   {{ partial "footer" . }}
