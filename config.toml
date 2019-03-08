@@ -109,8 +109,8 @@ staticDir = ["static"]
     name = "our team"
 
 [params]
-  facebook = "https://facebook.com/#"
-  instagram = "https://instagram.com/#"
+  facebook = "https://facebook.com/solnascente.eu"
+  instagram = "https://instagram.com/solnascente.eu/"
   mastodon = "https://scholar.social/@solnascente_eu"
   twitter = "https://twitter.com/solnascente_eu"
   
