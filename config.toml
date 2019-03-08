@@ -62,7 +62,7 @@ staticDir = ["static"]
 
   [languages.pt]
     weight = 2
-    languageName = "Portugês"
+    languageName = "Português"
 
  [[languages.pt.menu.main]]
     identifier = "market"
