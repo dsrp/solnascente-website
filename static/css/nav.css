@@ -1,6 +1,7 @@
 .dropdown-item.active,
 .dropdown-item:active {
   background-color: #d24725;
+  color: #fff;
   text-decoration: none;
 }
 
