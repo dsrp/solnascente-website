@@ -88,23 +88,23 @@ staticDir = ["static"]
     weight = 3
     languageName = "Español"
 
- [[languages.en.menu.main]]
+ [[languages.es.menu.main]]
     identifier = "market"
     name = "market landscape"
 
- [[languages.en.menu.main]]
+ [[languages.es.menu.main]]
     identifier = "approach"
     name = "approach"
 
- [[languages.en.menu.main]]
+ [[languages.es.menu.main]]
     identifier = "funding"
     name = "funding"    
     
-  [[languages.en.menu.main]]
+  [[languages.es.menu.main]]
     identifier = "contact"
     name = "contact"
 
-  [[languages.en.menu.main]]
+  [[languages.es.menu.main]]
     identifier = "team"
     name = "our team"
 

@@ -8,7 +8,7 @@
       </div>
       <div class="modal-body text-center p-0 mt-5">
         <div class="container justify-content-center">
-          <h3>{{ i18n "subscribe" . }}</h3>
+          <h3>{{ .Params.subscribe }}</h3>
           <div id="mc_embed_signup">
             <form action="https://Solnascente.us20.list-manage.com/subscribe/post?u=4951e3c30865c87767a6a4b0d&amp;id=807bea2a36"
               method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
@@ -18,14 +18,14 @@
                   <span class="input-group-addon">
                     <i class="fa fa-user-circle"></i>
                   </span>
-                  <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="email address"
+                  <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="email"
                     required>
                 </div>
                 <div class="modal-footer justify-content-center">
                   <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
                   <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_4951e3c30865c87767a6a4b0d_807bea2a36"
                       tabindex="-1" value=""></div>
-                  <div class="clear my-3"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"
+                  <div class="clear my-3"><input type="submit" value="{{.Params.subscribeBtn}}" name="subscribe" id="mc-embedded-subscribe"
                       class="btn btn-primary btn-round"></div>
                 </div>
               </div>
