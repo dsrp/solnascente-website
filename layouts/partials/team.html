@@ -3,31 +3,33 @@
   <div class="container">
     <h2 class="title">{{ .Params.Title }}</h2>
     <div class="team">
-      <div class="row">
+      <div class="row justify-content-center">
         {{ range .Params.Team }}
-        <div class="col-md-4">
+        <div class="col-md-4 my-3">
           <div class="team-player">
             <img src="{{.img_source | relURL}}" alt="Thumbnail Image" class="rounded-circle img-fluid" style="height:160px;width:160px">
             <h4 class="title">{{ .name }}</h4>
             <p class="category text-primary">{{ .position }}</p>
             <p class="description">{{ .description }}</p>
 
-            {{ if .twitter }}
-            <a href="{{ .twitter }}" class="btn btn-primary btn-round"><i class="fab fa-twitter fa-lg"></i></a>
+            {{ with .twitter }}
+            <a href="{{ . }}" class="btn btn-primary btn-round"><i class="fab fa-twitter fa-lg"></i></a>
             {{ end }}
 
-            {{ if .instagram }}
-            <a href="{{ .instagram }}" class="btn btn-primary btn-round"><i class="fab fa-instagram fa-lg"></i></a>
+            {{ with .instagram }}
+            <a href="{{ . }}" class="btn btn-primary btn-round"><i class="fab fa-instagram fa-lg"></i></a>
             {{ end }}
 
-            {{ if .facebook }}
-            <a href="{{ .facebook }}" class="btn btn-primary btn-round"><i class="fab fa-facebook-square fa-lg"></i></a>
+            {{ with .facebook }}
+            <a href="{{ . }}" class="btn btn-primary btn-round"><i class="fab fa-facebook-square fa-lg"></i></a>
             {{ end }}
-            
+        
+            {{ with .mastodon }}
+            <a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fab fa-mastodon mx-2"></i></a>
+            {{ end }}
           </div>
         </div>
         {{ end }}
-
       </div>
     </div>
   </div>

@@ -21,6 +21,12 @@ team: {
                 'position': 'Model',
                 'description': 'Example desription',
                 'instagram': 'https://www.instagram.com/violincase'
+               },
+  'joao3': {
+                'img_source': 'img/background.jpg',
+                'name': 'João',
+                'position': 'Model',
+                'description': 'Example desription',
                }
 }
 ---

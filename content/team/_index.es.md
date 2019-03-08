@@ -21,6 +21,12 @@ team: {
                 'position': 'Model',
                 'description': 'Example desription',
                 'twitter': 'https://twitter.com/mdo'
+               },
+  'joao3': {
+                'img_source': 'img/background.jpg',
+                'name': 'João',
+                'position': 'Model',
+                'description': 'Example desription',
                }
 }
 ---
