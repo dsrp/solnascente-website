@@ -12,3 +12,15 @@ body {
 .dropdown {
   list-style: none
 }
+
+form .form-control:focus { 
+  background-color: transparent;
+}
+
+input::-webkit-input-placeholder {
+  color: gray !important;
+}
+
+input:-moz-placeholder {
+  color: gray !important;
+}

@@ -1,26 +1,41 @@
-<div class="alert alert-info position-relative mb-0 p-0" role="alert">
-  <div class="container text-center">
-    <div class="row align-items-center">
-      <div class="col-2-sm my-auto">
-        <div class="alert-icon mt-1">
-          <i class="now-ui-icons travel_info ml-2"></i>
+<div class="jumbotron jumbotron-fluid p-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h3>{{ .Params.subscribe }}</h3>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-sm-12 text-center">
+        <div id="mc_embed_signup">
+          <form action="https://Solnascente.us20.list-manage.com/subscribe/post?u=4951e3c30865c87767a6a4b0d&amp;id=807bea2a36"
+            method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank"
+            novalidate>
+            <div id="mc_embed_signup_scroll">
+              <div class="input-group">
+                <span class="input-group-addon bg-transparent">
+                  <i class="fa fa-user-circle"></i>
+                </span>
+                <input type="name" value="" name="NAME" class="form-control bg-tranparent" id="mce-EMAIL" placeholder="{{ .Params.placeholderName }}"
+                  required>
+              </div>
+              <div class="input-group">
+                <span class="input-group-addon bg-transparent">
+                  <i class="fa fa-envelope"></i>
+                </span>
+                <input type="email" value="" name="EMAIL" class="form-control bg-tranparent" id="mce-EMAIL" placeholder="{{ .Params.placeholderEmail }}"
+                  required>
+              </div>
+              <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+              <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_4951e3c30865c87767a6a4b0d_807bea2a36"
+                  tabindex="-1" value=""></div>
+              <div class="clear my-3"><input type="submit" value="{{.Params.subscribeBtn}}" name="subscribe" id="mc-embedded-subscribe"
+                  class="btn btn-primary btn-round"></div>
+            </div>
+          </form>
         </div>
       </div>
-      <div class="col">
-        <strong>{{.Params.subscribeCall}}</strong>
-      </div>
-      <div class="col-6-sm">
-        <button class="btn btn-neutral mx-5 px-5" data-toggle="modal" data-target="#mailChimp">
-          {{.Params.subscribeBtn}}
-        </button>
-      </div>
-      <div class="col-6-sm">
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-          <span aria-hidden="true">
-            <i class="now-ui-icons ui-1_simple-remove"></i>
-          </span>
-        </button>
-      </div>
+      <!--End mc_embed_signup-->
     </div>
   </div>
 </div>
