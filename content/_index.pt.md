@@ -2,7 +2,9 @@
 title: "Main"
 type: template
 layout: components
-subscribe: "Assine já!"
-subscribeCall: "Assine nossa lista de emails!"
+subscribe: "Assina já!"
+subscribeCall: "Assina nossa lista de emails!"
 subscribeBtn: "Assinar"
+placeholderName: "Teu nome"
+placeholderEmail: "Teu e-mail"
 ---
