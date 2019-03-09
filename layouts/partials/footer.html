@@ -1,5 +1,5 @@
 {{with .Site.GetPage "/footer" }}
-<div class="footer" data-background-color="black">
+<div class="footer p-0 bg-secondary" data-background-color="bg-dark">
   <div class="container text-center">
     <ul>
 
@@ -9,13 +9,13 @@
         <a href="https://spdx.org/licenses/MIT"><i class="fa fa-balance-scale"></i> MIT</a>
       </li>
 
-      <li class="mx-5">
+      <li class="mx-5 small">
         2019 {{ .Site.Title }}. <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons-Licentie"
             style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
       </li>
 
       <li class="mx-5">
-        <div class="text-muted">
+        <div class="small">
           {{ .Params.created_by }} <strong>{{ .Params.creator }}</strong>
         </div>
       </li>
