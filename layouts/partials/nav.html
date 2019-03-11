@@ -65,16 +65,14 @@
         </li>
         {{ end }}
         {{ end }}
-        <li class="nav-item">
-          <span class="navbar-toggler" style="padding: 0;border: none;margin: 0;font-size: inherit;">
-            <a class="nav-link" data-target="#mailChimp" data-toggle="modal">
-              <i class='fa fa-newspaper'></i> <span>Newsletter</span> 
-            </a>
-          </span>
+        <li>
+          <a class="nav-link" data-target="#mailChimp" data-toggle="modal">
+            <i class='fa fa-newspaper'></i><span> Newsletter</span>
+          </a>
         </li>
       </ul>
       <!-- Sidebar social network icons -->
-      <ul class="navbar-nav my-auto visible-xs align-items-center">
+      <ul class="navbar-nav my-auto align-items-center">
         {{ partial "social_networks/list" .}}
       </ul>
 

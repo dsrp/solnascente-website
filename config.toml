@@ -8,8 +8,6 @@ theme = ["hugo-now-ui"]
 staticDir = ["static"]
 sectionPagesMenu = "main"
 
-[menu]
-
 [languages]
   [languages.en]
     weight = 1
