@@ -1,5 +1,5 @@
 ---
-title: "Aquí está nuestro equipo"
+title: "Nuestro equipo"
 team: {
   'joao': {
                 'img_source': 'img/background.jpg',

@@ -5,18 +5,8 @@
 <body class="profile-page sidebar-collapse">
   {{ partial "nav" . }}
 
-  {{ with .Site.GetPage "/landingMain" }}
-  {{ partial "landingMain" . }}
+  {{ block "main" . }}
   {{ end }}
-
-  <div class="wrapper">
-    <div class="main">
-      <div class="container">
-        {{ .Content }}
-      </div>
-    </div>
-
-  </div>
 
   {{ partial "footer" . }}
 </body>

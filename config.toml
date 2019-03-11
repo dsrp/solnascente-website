@@ -6,107 +6,22 @@ languageCode = "en-us"
 title = "Sol Nascente"
 theme = ["hugo-now-ui"]
 staticDir = ["static"]
+sectionPagesMenu = "main"
 
 [menu]
-
- [[menu.main]]
-    identifier = "market"
-    url = ""
-    weight = -5
-
- [[menu.main]]
-    identifier = "approach"
-    url = ""
-    weight = -4
-
- [[menu.main]]
-    identifier = "funding"
-    url = ""
-    weight = -3
-
-  [[menu.main]]
-    identifier = "contact"
-    url = ""
-    weight = -2
-
-  [[menu.main]]
-    identifier = "team"
-    pre = "<i class='fa fa-heart'></i>"
-    url = "/team/"
-    weight = -1
 
 [languages]
   [languages.en]
     weight = 1
     languageName = "English"
 
- [[languages.en.menu.main]]
-    identifier = "market"
-    name = "market landscape"
-
- [[languages.en.menu.main]]
-    identifier = "approach"
-    name = "approach"
-
- [[languages.en.menu.main]]
-    identifier = "funding"
-    name = "funding"
-    
-  [[languages.en.menu.main]]
-    identifier = "contact"
-    name = "contact"
-
-  [[languages.en.menu.main]]
-    identifier = "team"
-    name = "our team"
-
   [languages.pt]
     weight = 2
     languageName = "Português"
-
- [[languages.pt.menu.main]]
-    identifier = "market"
-    name = "mercado"
-
- [[languages.pt.menu.main]]
-    identifier = "approach"
-    name = "approach"
-
- [[languages.pt.menu.main]]
-    identifier = "funding"
-    name = "funding"
-    
-  [[languages.pt.menu.main]]
-    identifier = "contact"
-    name = "contact"
-
-  [[languages.pt.menu.main]]
-    identifier = "team"
-    name = "nosso time"
     
   [languages.es]
     weight = 3
     languageName = "Español"
-
- [[languages.es.menu.main]]
-    identifier = "market"
-    name = "market landscape"
-
- [[languages.es.menu.main]]
-    identifier = "approach"
-    name = "approach"
-
- [[languages.es.menu.main]]
-    identifier = "funding"
-    name = "funding"    
-    
-  [[languages.es.menu.main]]
-    identifier = "contact"
-    name = "contact"
-
-  [[languages.es.menu.main]]
-    identifier = "team"
-    name = "our team"
 
 [params]
   facebook = "https://facebook.com/solnascente.eu"

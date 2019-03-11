@@ -1,39 +1,5 @@
-<!doctype html>
-<html lang="{{ .Language }}">
-{{ partial "head" . }}
-
-<body class="profile-page sidebar-collapse">
-  {{ partial "nav" . }}
-
-  <div class="wrapper">
-
-    {{ with .Site.GetPage "/landingMain" }}
-      {{ partial "landingMain" . }}
-    {{ end }}
+{{ define "main" }}
+    {{ partial "landingMain" . }}
     {{ partial "newsletter/subscribeToast" . }}
-
-    <div class="main">
-      <div class="container">
-        {{ with .Site.GetPage "/image1" }}
-          {{ partial "imageText" . }}
-        {{ end }}
-
-        {{ with .Site.GetPage "/image2" }}
-          {{ partial "imageText" . }}
-        {{ end }}
-
-        {{ partial "team" . }}
-      </div>
-      {{ partial "newsletter/form" .}}
-    </div>
-
-  </div>
-
-  {{ partial "footer" . }}
-
-
-</body>
-
-{{ partial "javascript" . }}
-
-</html>
+    {{ partial "newsletter/form" .}}
+{{ end }}

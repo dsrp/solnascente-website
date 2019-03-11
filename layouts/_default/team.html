@@ -1,4 +1,4 @@
-{{ with .Site.GetPage "/team" }}
+{{ define "main" }}
 <div class="section section-team text-center">
   <div class="container">
     <h2 class="title">{{ .Params.Title }}</h2>
@@ -23,7 +23,7 @@
             {{ with .facebook }}
             <a href="{{ . }}" class="btn btn-primary btn-round"><i class="fab fa-facebook-square fa-lg"></i></a>
             {{ end }}
-        
+
             {{ with .mastodon }}
             <a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fab fa-mastodon mx-2"></i></a>
             {{ end }}
