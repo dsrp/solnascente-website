@@ -3,13 +3,20 @@
 {{ partial "head" . }}
 
 <body class="profile-page sidebar-collapse">
-  {{ partial "nav" . }}
 
-  {{ block "main" . }}
-  {{ end }}
+  <div class="wrapper">
+    {{ partial "nav" . }}
 
+    {{ block "main" . }}
+    {{ end }}
+    
+  </div>
   {{ partial "footer" . }}
+
 </body>
+
+
+{{ partial "newsletter/form" .}}
 
 {{ partial "javascript" . }}
 
