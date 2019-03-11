@@ -1,7 +1,5 @@
 ---
 title: "Main"
-type: template
-layout: components
 subscribe: "Assina já!"
 subscribeCall: "Assina nossa lista de emails!"
 subscribeBtn: "Assinar"
