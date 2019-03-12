@@ -11,4 +11,8 @@ subscribeCall: "Subscribe to our mailing list!"
 subscribeBtn: "Subscribe"
 placeholderName: "Tu nombre"
 placeholderEmail: "Tu e-mail"
+
+created_by: "Creado por"
+creator: "1313 Labs"
+layout: footer
 ---

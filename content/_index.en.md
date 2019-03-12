@@ -10,4 +10,8 @@ subscribeCall: "Subscribe to our mailing list!"
 subscribeBtn: "Subscribe"
 placeholderName: "Your name"
 placeholderEmail: "Your e-mail"
+
+created_by: "Created by"
+creator: "1313 Labs"
+layout: footer
 ---

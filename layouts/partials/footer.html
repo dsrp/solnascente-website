@@ -1,14 +1,11 @@
-{{with .Site.GetPage "/footer" }}
-<footer class="footer fixed-bottom p-0 bg-secondary text-center" data-background-color="bg-dark">
+{{with .Site.GetPage "/" }}
+<footer class="footer p-0 bg-secondary text-center" data-background-color="bg-dark">
   <ul>
-
     {{ partial "social_networks/list" .}}
-
     <li class="mx-5 small">
       <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons-Licentie"
           style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png" /></a>
     </li>
-
     <li class="mx-5">
       <div class="small">
         {{ .Params.created_by }} <strong>{{ .Params.creator }}</strong>

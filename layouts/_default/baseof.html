@@ -4,18 +4,16 @@
 
 <body class="profile-page sidebar-collapse">
 
-  <div class="wrapper">
+  <div class="content-wrap">
     {{ partial "nav" . }}
 
     {{ block "main" . }}
     {{ end }}
-    {{ block "footer" . }}
-    {{ partial "footer" . }}
-    {{ end }}
+
   </div>
+  {{ partial "footer" . }}
 
 </body>
-
 
 {{ partial "newsletter/form" .}}
 
