@@ -1,9 +1,12 @@
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg bg-primary fixed-top py-0" color-on-scroll="400">
+
+
+{{ $navClasses := cond (.IsHome) "navbar navbar-expand-lg fixed-top py-0" "navbar navbar-expand-lg bg-primary fixed-top py-0" }}
+
+<nav class="{{ $navClasses }}" color-on-scroll="400">
   <div class="container">
     <div class="navbar-translate">
-      <a class="navbar-brand ml-3" href="{{ .Site.BaseURL | relLangURL }}" rel="tooltip" title="" data-placement="bottom"
-        target="_blank">
+      <a class="navbar-brand ml-3" href="{{ .Site.BaseURL | relLangURL }}" rel="tooltip" title="" data-placement="bottom">
         {{.Site.Title}}
       </a>
 
