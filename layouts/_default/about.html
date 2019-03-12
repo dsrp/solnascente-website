@@ -2,7 +2,6 @@
 {{ $headless := .Site.GetPage "page" "about/headless" }}
 {{ if $headless }}  
 {{ with $headless.Resources }}
-{{ $headless.Resources}}
 {{ range . }}
 {{ $flexClass := "flex-md-row" }}
 {{ if eq .Params.content_float "left" }}
