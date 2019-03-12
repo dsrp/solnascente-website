@@ -1,5 +1,6 @@
 ---
 title: "Here is our team"
+headless: true
 team: {
   'joao': {
                 'img_source': 'img/background.jpg',
@@ -29,5 +30,4 @@ team: {
                 'description': 'Example desription',
                }
 }
-
 ---
