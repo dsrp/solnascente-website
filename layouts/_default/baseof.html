@@ -21,10 +21,8 @@
     {{ end }}
 
     {{ block "headless" .}}
-    {{ $headless := .Site.GetPage "page" "about/headless" }}
-    {{ if $headless }}
-    {{ with $headless.Resources }}
-    {{ range . }}
+    {{ if not .IsHome}}
+    {{ range .Pages }}
     {{ $flexClass := "flex-md-row" }}
     {{ if eq .Params.content_float "left" }}
     {{ $flexClass = "flex-md-row-reverse" }}
@@ -48,7 +46,6 @@
         </div>
       </div>
     </div>
-    {{ end }}
     {{ end }}
     {{ end }}
     {{ end }}
