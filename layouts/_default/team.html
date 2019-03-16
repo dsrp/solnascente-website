@@ -1,37 +1,43 @@
 {{ define "main" }}
-<div class="section section-team text-center">
-  <div class="container">
-    <h2 class="title">{{ .Params.Title }}</h2>
-    <div class="team">
-      <div class="row justify-content-center">
-        {{ range .Params.Team }}
-        <div class="col-md-4 my-3">
-          <div class="team-player">
-            <img src="{{.img_source | relURL}}" alt="Thumbnail Image" class="rounded-circle img-fluid" style="height:160px;width:160px">
-            <h4 class="title">{{ .name }}</h4>
-            <p class="category text-primary">{{ .position }}</p>
-            <p class="description">{{ .description }}</p>
+  <div class="section section-team text-center pb-0">
+    <div class="container">
+      <h2 class="title">{{ .Params.Title }}</h2>
+      <div class="team">
+        <div class="row justify-content-center">
+          {{ range .Params.Team }}
+            <div class="col-md-4 my-3">
+              <div class="team-player">
+                <img src="{{.img_source | relURL}}" alt="Thumbnail Image" class="rounded-circle img-fluid" style="height:160px;width:160px">
+                <h4 class="title">{{ .name }}</h4>
+                <p class="category text-primary">{{ .position }}</p>
+                <p class="description">{{ .description }}</p>
 
-            {{ with .twitter }}
-            <a href="{{ . }}" class="btn btn-primary btn-round"><i class="fab fa-twitter fa-lg"></i></a>
-            {{ end }}
+                {{ with .twitter }}
+                  <a href="{{ . }}" class="btn btn-default btn-round btn-icon"><i class="fab fa-twitter fa-lg"></i></a>
+                {{ end }}
 
-            {{ with .instagram }}
-            <a href="{{ . }}" class="btn btn-primary btn-round"><i class="fab fa-instagram fa-lg"></i></a>
-            {{ end }}
+                {{ with .instagram }}
+                  <a href="{{ . }}" class="btn btn-default btn-round btn-icon"><i class="fab fa-instagram fa-lg"></i></a>
+                {{ end }}
 
-            {{ with .facebook }}
-            <a href="{{ . }}" class="btn btn-primary btn-round"><i class="fab fa-facebook-square fa-lg"></i></a>
-            {{ end }}
-
-            {{ with .mastodon }}
-            <a target="_blank" href="{{ . }}" title="{{ . }}"><i class="fab fa-mastodon mx-2"></i></a>
-            {{ end }}
-          </div>
+                {{ with .facebook }}
+                  <a href="{{ . }}" class="btn btn-default btn-round btn-icon"><i class="fab fa-facebook-f fa-lg"></i></a>
+                {{ end }}
+              </div>
+            </div>
+          {{ end }}
         </div>
-        {{ end }}
       </div>
     </div>
   </div>
-</div>
+  {{ if .Content }}
+    <div class="container">
+        <div class="row p-5">
+          <div class="col-12">
+            <div class="text-muted">{{ .Content }}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  {{ end }}
 {{ end }}

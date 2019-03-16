@@ -28,3 +28,9 @@ input::-webkit-input-placeholder {
 input:-moz-placeholder {
   color: gray !important;
 }
+.btn-icon {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin: auto !important;
+}
