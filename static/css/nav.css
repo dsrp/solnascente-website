@@ -34,3 +34,7 @@ input:-moz-placeholder {
   justify-content: center !important;
   margin: auto !important;
 }
+
+.fa-lg { 
+  vertical-align: -.5em;
+}
