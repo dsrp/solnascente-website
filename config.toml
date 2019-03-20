@@ -4,16 +4,27 @@ defaultContentLanguageInSubdir = true
 baseURL = "https://solnascente.eu/"
 languageCode = "en-us"
 title = "Sol Nascente"
-theme = "hugo-now-ui"
+theme = ["hugo-now-ui"]
 staticDir = ["static"]
+sectionPagesMenu = "main"
 
 [languages]
   [languages.en]
     weight = 1
     languageName = "English"
+
   [languages.pt]
     weight = 2
     languageName = "Português"
+    
   [languages.es]
     weight = 3
     languageName = "Español"
+
+[params]
+  facebook = "https://facebook.com/solnascente.eu"
+  instagram = "https://instagram.com/solnascente.eu/"
+  mastodon = "https://scholar.social/@solnascente_eu"
+  twitter = "https://twitter.com/solnascente_eu"
+  
+  custom_css = ["css/custom.css", "css/nav.css"]
