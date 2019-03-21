@@ -38,3 +38,8 @@ input:-moz-placeholder {
 .fa-lg { 
   vertical-align: -.5em;
 }
+
+ul.list li{
+  width: auto;
+  float: left;
+}
