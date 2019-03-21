@@ -40,7 +40,7 @@
             </ul>
           </li>
         {{ end }}
-        
+
         {{ range .Site.Menus.main }}
           {{ if .HasChildren }}
             <li class="nav-item dropdown">
@@ -67,14 +67,42 @@
             </li>
           {{ end }}
         {{ end }}
-        <li class ="nav-item">
-          <a class="nav-link" data-target="#mailChimp" data-toggle="modal">
-            <i class='fa fa-newspaper'></i><span> {{ .Params.subscribeBtn }}</span>
-          </a>
+      </ul>
+
+      <!-- Sidebar social network icons -->
+      <ul class="navbar-nav my-auto align-items-center list">
+        <li style="display:contents;">
+          <ul class="p-0 list-unstyled">
+
+            <li class ="nav-item">
+              <a class="nav-link" data-target="#mailChimp" data-toggle="modal">
+                <i class='fa fa-newspaper'></i><span> {{ .Params.subscribeBtn }}</span>
+              </a>
+            </li>
+
+            <li>
+              <a target="_blank" href="{{ .Site.Params.mastodon }}" title="{{ . }}"><i
+                  class="fab fa-mastodon small mx-2 my-3"></i></a>
+            </li>
+
+            <li>
+              <a target="_blank" href="{{ .Site.Params.facebook }}" title="{{ . }}"><i
+                  class="fab fa-facebook small mx-2 my-3"></i></a>
+            </li>
+
+            <li>
+              <a target="_blank" href="{{ .Site.Params.twitter }}" title="{{ . }}"><i
+                  class="fab fa-twitter small mx-2 my-3"></i></a>
+            </li>
+
+            <li>
+              <a target="_blank" href="{{ .Site.Params.instagram }}" title="{{ . }}"><i
+                  class="fab fa-instagram small mx-2 my-3"></i></a>
+            </li>
+          </ul>
         </li>
       </ul>
-      <!-- Sidebar social network icons -->
-        {{ partial "social_networks/list" .}}
+
 
     </div>
   </div>
