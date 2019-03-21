@@ -22,35 +22,33 @@
     {{ end }}
 
     {{ block "headless" .}}
-      {{ if not .IsHome}}
-        {{ range .Resources.ByType "page" }}
-          {{ $flexClass := "flex-md-row" }}
-          {{ if eq .Params.content_float "left" }}
-            {{ $flexClass = "flex-md-row-reverse" }}
-          {{ end }}
-          <div class="section section-story-overview p-5">
-            <div class="container">
-              <div class="row align-items-center mt-5 flex-column-reverse {{ $flexClass }}">
-                {{ if .Params.image_src }}
-                  <div class="col-12 col-md-6">
-                {{ else }}
-                  <div class="col-12 col-md-12">
-                {{ end }}
-                    <h4>
-                      {{ .Title }}
-                    </h4>
-                    <br>
-                      {{ .Content }}
-                  </div>
-                {{ if .Params.image_src }}
-                  <div class="col-12 col-md-6">
-                    <div class="image-container border-0" style="background-image: url('{{ .Params.image_src }}'); box-shadow: none"></div>
-                  </div>
-                {{ end }}
-              </div>
+      {{ range .Resources.ByType "page" }}
+        {{ $flexClass := "flex-md-row" }}
+        {{ if eq .Params.content_float "left" }}
+          {{ $flexClass = "flex-md-row-reverse" }}
+        {{ end }}
+        <div class="section section-story-overview p-5">
+          <div class="container">
+            <div class="row align-items-center mt-5 flex-column-reverse {{ $flexClass }}">
+              {{ if .Params.image_src }}
+                <div class="col-12 col-md-6">
+              {{ else }}
+                <div class="col-12 col-md-12">
+              {{ end }}
+                  <h4>
+                    {{ .Title }}
+                  </h4>
+                  <br>
+                    {{ .Content }}
+                </div>
+              {{ if .Params.image_src }}
+                <div class="col-12 col-md-6">
+                  <div class="image-container border-0" style="background-image: url('{{ .Params.image_src }}'); box-shadow: none"></div>
+                </div>
+              {{ end }}
             </div>
           </div>
-        {{ end }}
+        </div>
       {{ end }}
     {{ end }}
   </div>
