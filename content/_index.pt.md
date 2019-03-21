@@ -8,7 +8,7 @@ h4: [
 ]
 
 learnMore: "Saber mais"
-learnMoreLink: "https://docs.google.com/document/d/11pFJhwdclu4h_cbyaeq60tEW2asQ9Gbw9X0Sf2aRXWo/"
+learnMoreLink: "/short_description/short_description.pt.pdf"
 
 subscribe: "Assina já!"
 subscribeCall: "Assina nossa lista de emails!"
