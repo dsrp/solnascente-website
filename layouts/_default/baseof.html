@@ -23,7 +23,7 @@
 
     {{ block "headless" .}}
       {{ if not .IsHome}}
-        {{ range .Pages }}
+        {{ range .Resources.ByType "page" }}
           {{ $flexClass := "flex-md-row" }}
           {{ if eq .Params.content_float "left" }}
             {{ $flexClass = "flex-md-row-reverse" }}
