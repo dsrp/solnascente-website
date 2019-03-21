@@ -67,18 +67,18 @@
             </li>
           {{ end }}
         {{ end }}
+
+        <li class ="nav-item">
+          <a class="nav-link" data-target="#mailChimp" data-toggle="modal">
+            <i class='fa fa-newspaper'></i><span> {{ .Params.subscribeBtn }}</span>
+          </a>
+        </li>
       </ul>
 
       <!-- Sidebar social network icons -->
       <ul class="navbar-nav my-auto align-items-center list">
         <li style="display:contents;">
           <ul class="p-0 list-unstyled">
-
-            <li class ="nav-item">
-              <a class="nav-link" data-target="#mailChimp" data-toggle="modal">
-                <i class='fa fa-newspaper'></i><span> {{ .Params.subscribeBtn }}</span>
-              </a>
-            </li>
 
             <li>
               <a target="_blank" href="{{ .Site.Params.mastodon }}" title="{{ . }}"><i
