@@ -8,6 +8,8 @@ theme = ["hugo-now-ui"]
 staticDir = ["static"]
 sectionPagesMenu = "main"
 
+taxonomies = false
+
 [languages]
   [languages.en]
     weight = 1
@@ -16,7 +18,7 @@ sectionPagesMenu = "main"
   [languages.pt]
     weight = 2
     languageName = "Português"
-    
+
   [languages.es]
     weight = 3
     languageName = "Español"
@@ -26,5 +28,5 @@ sectionPagesMenu = "main"
   instagram = "https://instagram.com/solnascente.eu/"
   mastodon = "https://scholar.social/@solnascente_eu"
   twitter = "https://twitter.com/solnascente_eu"
-  
+
   custom_css = ["css/custom.css", "css/nav.css"]
