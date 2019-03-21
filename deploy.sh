@@ -1,3 +1,3 @@
 #!/bin/sh
 
-hugo && rsync -arvz --delete public/ ext2:~/public_html/solnascente/
+hugo --minify && rsync -arvz --delete public/ ext2:~/public_html/solnascente/
