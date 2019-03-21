@@ -15,6 +15,12 @@
           <div class="col-12">
             {{ .Content }}
           </div>
+
+          {{ if .Params.image_src }}
+            <div class="col-12 col-md-12">
+              <img src="{{ .Params.image_src }}" class="img-fluid rounded">
+            </div>
+          {{ end }}
         </div>
       </div>
     {{ end }}
@@ -36,8 +42,7 @@
 
                 {{ if .Params.image_src }}
                   <div class="col-12 col-md-6">
-                    <!-- Why isn't this a regular image? -->
-                    <div class="image-container border-0" style="background-image: url('{{ .Params.image_src }}'); box-shadow: none"></div>
+                    <img src="{{ .Params.image_src }}" class="img-fluid rounded">
                   </div>
                 {{ end }}
             </div>
