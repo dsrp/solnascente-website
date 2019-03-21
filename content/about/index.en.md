@@ -2,6 +2,7 @@
 title: About us
 content_float: left
 image_src: /img/diego.jpg
+menu: main
 ---
 
 Sol Nascente is a regenerative initiative that longs to reforest the north of Portugal and Spain by proving that a forest can be ecologically sound as well as wildly productive.
