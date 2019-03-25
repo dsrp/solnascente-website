@@ -1,9 +1,14 @@
 ---
 title: "Sol Nascente"
-h3: "Crescer Comunidades de Árvores e Pessoas"
-h4: ["Reabilitação das aldeias abandonadas", "Reflorestamento das terras degradadas", "Revigorando as economias locais"]
-learnMore: "Fale Conosco!"
-learnMoreLink: "mailto:info@solnascente.eu"
+h3: "Fomento de comunidades de árvores e de pessoas"
+h4: [
+    "Reabilitação das aldeias abandonadas",
+    "Reflorestamento das terras degradadas",
+    "Revitalização das economias locais"
+]
+
+learnMore: "Saber mais"
+learnMoreLink: "/short_description/short_description.pt.pdf"
 
 subscribe: "Assina já!"
 subscribeCall: "Assina nossa lista de emails!"
@@ -13,5 +18,4 @@ placeholderEmail: "Teu e-mail"
 
 created_by: "Criado por"
 creator: "1313 Labs"
-layout: footer
 ---

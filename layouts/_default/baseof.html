@@ -1,6 +1,6 @@
 <!doctype html>
 <html lang="{{ .Language }}">
-  
+
 {{ partial "head" . }}
 
 <body class="profile-page sidebar-collapse">
@@ -11,50 +11,47 @@
     {{ block "main" . }}
       <div class="container">
         <div class="row p-5">
-          <div class="col-12 pt-5">
-            <h2>{{ .Title }}</h2>
-          </div>
+          <h2 class="col-12 pt-5">{{ .Title }}</h2>
           <div class="col-12">
-            <div class="text-muted">{{ .Content }}</div>
+            {{ .Content }}
           </div>
+
+          {{ if .Params.image_src }}
+            <div class="col-12 col-md-12">
+              <img src="{{ .Params.image_src }}" class="img-fluid rounded">
+            </div>
+          {{ end }}
         </div>
       </div>
     {{ end }}
 
     {{ block "headless" .}}
-      {{ if not .IsHome}}
-        {{ range .Pages }}
+      {{ with .Resources.ByType "page" }}
+        {{ range sort . "Name" }}
           {{ $flexClass := "flex-md-row" }}
           {{ if eq .Params.content_float "left" }}
             {{ $flexClass = "flex-md-row-reverse" }}
           {{ end }}
-          <div class="section section-story-overview p-5">
-            <div class="container">
-              <div class="row align-items-center mt-5 flex-column-reverse {{ $flexClass }}">
+
+          <div class="section section-story-overview px-5 container">
+            <div class="row align-items-center   flex-column-reverse {{ $flexClass }}">
+                <div class="col-12 col-md-{{ if .Params.image_src }}6{{ else }}12{{ end }}">
+                  <h4>{{ .Title }}</h4>
+                  {{ .Content }}
+                </div>
+
                 {{ if .Params.image_src }}
                   <div class="col-12 col-md-6">
-                {{ else }}
-                  <div class="col-12 col-md-12 text-center">
-                {{ end }}
-                    <h4>
-                      {{ .Title }}
-                    </h4>
-                    <br>
-                      {{ .Content }}
-                  </div>
-                {{ if .Params.image_src }}
-                  <div class="col-12 col-md-6">
-                    <div class="image-container border-0" style="background-image: url('{{ .Params.image_src }}'); box-shadow: none"></div>
+                    <img src="{{ .Params.image_src }}" class="img-fluid rounded">
                   </div>
                 {{ end }}
-              </div>
             </div>
           </div>
-        {{ end }}
-      {{ end }}
-    {{ end }}
+        {{ end }} <!-- range -->
+      {{ end }} <!-- with -->
+
+    {{ end }} <!-- block -->
   </div>
-  {{ partial "footer" . }}
 
 </body>
 
