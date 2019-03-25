@@ -18,8 +18,8 @@
     <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="{{ "img/blurred-image-1.jpg" | relURL }}">
       <ul class="navbar-nav mr-auto">
         {{ if .Site.IsMultiLingual }}
-          <li id="language-switch" class="dropdown my-auto mx-4 text-sm-left">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i
+          <li id="language-switch" class="dropdown my-auto mx-4 text-sm-left nav-item">
+            <a href="#" class="m-0 p-0 dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i
                 class="fa fa-globe" aria-hidden="true"></i></a>
             <ul class="dropdown-menu">
               {{ $siteLanguages := .Site.Languages}}
@@ -82,22 +82,22 @@
 
             <li class="nav-item">
               <a class="nav-link" target="_blank" href="{{ .Site.Params.mastodon }}" title="{{ . }}"><i
-                  class="fab fa-mastodon my-3"></i></a>
+                  class="fab fa-mastodon"></i></a>
             </li>
 
             <li class="nav-item">
               <a class="nav-link" target="_blank" href="{{ .Site.Params.facebook }}" title="{{ . }}"><i
-                  class="fab fa-facebook my-3"></i></a>
+                  class="fab fa-facebook"></i></a>
             </li>
 
             <li class="nav-item">
               <a class="nav-link" target="_blank" href="{{ .Site.Params.twitter }}" title="{{ . }}"><i
-                  class="fab fa-twitter my-3"></i></a>
+                  class="fab fa-twitter"></i></a>
             </li>
 
             <li class="nav-item">
               <a class="nav-link" target="_blank" href="{{ .Site.Params.instagram }}" title="{{ . }}"><i
-                  class="fab fa-instagram my-3"></i></a>
+                  class="fab fa-instagram"></i></a>
             </li>
           </ul>
         </li>
