@@ -1,34 +1,39 @@
 {{ define "main" }}
 
-<div class="page-header clear-filter" filter-color="orange">
+<div class="landing-page page-header clear-filter" filter-color="orange">
   <div class="page-header-image" data-parallax="true" style="background-image: url('/img/background.jpg');">
   </div>
-  <div class="container">
-    <div class="content-center brand">
-      <h1 class="display-4 text-uppercase">
-        {{ .Params.title }}
-      </h1>
+  <div class="container d-flex justify-content-center align-items-center">
+    <div class="row my-auto">
+      <div class="col">
+        <div class="content-center brand mt-5">
 
-      <h3>
-        {{ .Params.h3 }}
-      </h3>
+          <h1 class="display-4 text-uppercase">
+            {{ .Params.title }}
+          </h1>
 
-      <h4>
-        {{ range .Params.h4 }}
-          {{ . }}<br>
-        {{ end }}
-      </h4>
+          <h3>
+            {{ .Params.h3 }}
+          </h3>
 
-      <a href={{ .Params.learnMoreLink }}>
-        <button class="btn btn-neutral btn-lg btn-round" type="button">
-          {{ .Params.learnMore }}
-        </button>
-      </a>
-      <a href="#" data-target="#mailChimp" data-toggle="modal">
-        <button class="btn btn-primary btn-lg btn-round" type="button">
-          {{.Params.subscribeBtn}}
-        </button>
-      </a>
+          <h4>
+            {{ range .Params.h4 }}
+            {{ . }}<br>
+            {{ end }}
+          </h4>
+
+          <a href={{ .Params.learnMoreLink }}>
+            <button class="btn btn-neutral btn-lg btn-round" type="button">
+              {{ .Params.learnMore }}
+            </button>
+          </a>
+          <a href="#" data-target="#mailChimp" data-toggle="modal">
+            <button class="btn btn-primary btn-lg btn-round" type="button">
+              {{.Params.subscribeBtn}}
+            </button>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
