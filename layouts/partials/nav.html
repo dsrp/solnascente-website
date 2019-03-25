@@ -67,7 +67,7 @@
             </li>
           {{ end }}
         {{ end }}
-
+            
         <li class ="nav-item">
           <a class="nav-link" data-target="#mailChimp" data-toggle="modal">
             <i class='fa fa-newspaper'></i><span> {{ .Params.subscribeBtn }}</span>
@@ -80,24 +80,24 @@
         <li style="display:contents;">
           <ul class="p-0 list-unstyled">
 
-            <li>
-              <a target="_blank" href="{{ .Site.Params.mastodon }}" title="{{ . }}"><i
-                  class="fab fa-mastodon small mx-2 my-3"></i></a>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="{{ .Site.Params.mastodon }}" title="{{ . }}"><i
+                  class="fab fa-mastodon my-3"></i></a>
             </li>
 
-            <li>
-              <a target="_blank" href="{{ .Site.Params.facebook }}" title="{{ . }}"><i
-                  class="fab fa-facebook small mx-2 my-3"></i></a>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="{{ .Site.Params.facebook }}" title="{{ . }}"><i
+                  class="fab fa-facebook my-3"></i></a>
             </li>
 
-            <li>
-              <a target="_blank" href="{{ .Site.Params.twitter }}" title="{{ . }}"><i
-                  class="fab fa-twitter small mx-2 my-3"></i></a>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="{{ .Site.Params.twitter }}" title="{{ . }}"><i
+                  class="fab fa-twitter my-3"></i></a>
             </li>
 
-            <li>
-              <a target="_blank" href="{{ .Site.Params.instagram }}" title="{{ . }}"><i
-                  class="fab fa-instagram small mx-2 my-3"></i></a>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="{{ .Site.Params.instagram }}" title="{{ . }}"><i
+                  class="fab fa-instagram my-3"></i></a>
             </li>
           </ul>
         </li>
