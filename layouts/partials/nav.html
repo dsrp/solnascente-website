@@ -18,8 +18,8 @@
     <div class="collapse navbar-collapse justify-content-end" id="navigation" data-nav-image="{{ "img/blurred-image-1.jpg" | relURL }}">
       <ul class="navbar-nav mr-auto">
         {{ if .Site.IsMultiLingual }}
-          <li id="language-switch" class="dropdown my-auto mx-4 text-sm-left">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i
+          <li id="language-switch" class="dropdown my-auto mx-4 text-sm-left nav-item">
+            <a href="#" class="m-0 p-0 dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i
                 class="fa fa-globe" aria-hidden="true"></i></a>
             <ul class="dropdown-menu">
               {{ $siteLanguages := .Site.Languages}}
@@ -67,7 +67,7 @@
             </li>
           {{ end }}
         {{ end }}
-
+            
         <li class ="nav-item">
           <a class="nav-link" data-target="#mailChimp" data-toggle="modal">
             <i class='fa fa-newspaper'></i><span> {{ .Params.subscribeBtn }}</span>
@@ -80,24 +80,24 @@
         <li style="display:contents;">
           <ul class="p-0 list-unstyled">
 
-            <li>
-              <a target="_blank" href="{{ .Site.Params.mastodon }}" title="{{ . }}"><i
-                  class="fab fa-mastodon small mx-2 my-3"></i></a>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="{{ .Site.Params.mastodon }}" title="{{ . }}"><i
+                  class="fab fa-mastodon"></i></a>
             </li>
 
-            <li>
-              <a target="_blank" href="{{ .Site.Params.facebook }}" title="{{ . }}"><i
-                  class="fab fa-facebook small mx-2 my-3"></i></a>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="{{ .Site.Params.facebook }}" title="{{ . }}"><i
+                  class="fab fa-facebook"></i></a>
             </li>
 
-            <li>
-              <a target="_blank" href="{{ .Site.Params.twitter }}" title="{{ . }}"><i
-                  class="fab fa-twitter small mx-2 my-3"></i></a>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="{{ .Site.Params.twitter }}" title="{{ . }}"><i
+                  class="fab fa-twitter"></i></a>
             </li>
 
-            <li>
-              <a target="_blank" href="{{ .Site.Params.instagram }}" title="{{ . }}"><i
-                  class="fab fa-instagram small mx-2 my-3"></i></a>
+            <li class="nav-item">
+              <a class="nav-link" target="_blank" href="{{ .Site.Params.instagram }}" title="{{ . }}"><i
+                  class="fab fa-instagram"></i></a>
             </li>
           </ul>
         </li>
