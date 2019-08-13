@@ -15,7 +15,7 @@ KvK 73619957
 
 [iDeal/SOFORT](https://bunq.me/solnascente)
 
-IBAN: NL30 BUNQ 2207 9045 04
+IBAN: NL30 BUNQ 2207 9045 04<br>
 SWIFT: BUNQNL2A
 
 Banco: Bunq B.V.<br>
