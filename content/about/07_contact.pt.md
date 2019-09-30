@@ -3,8 +3,8 @@ title: Contacto
 ---
 
 Stichting Sol Nascente<br>
-Den Helderstraat 90<br>
-2547 SP Den Haag<br>
+Bachstraat 664<br>
+2324 HG Leiden<br>
 Países Baixos
 
 KvK 73619957
