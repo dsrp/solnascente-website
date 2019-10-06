@@ -51,7 +51,7 @@ Email
 : info@solnascente.eu
 
 Phone
-: ‭+34 688 922 591‬
+: ‭‭+31 85 785 33 35‬
 
 Address
 : Bachstraat 664<br>
@@ -61,6 +61,22 @@ The Netherlands
 
 Website
 : https://solnascente.eu
+
+##### Banking details
+IBAN
+: NL30 BUNQ 2207 9045 04
+
+Account holder
+: Stichting Sol Nascente
+
+SWIFT
+: BUNQNL2A
+
+Bank
+: Bunq B.V.
+
+Bank address
+: Naritaweg 131-133, 1043 BS Amsterdam, Netherlands
 
 ##### Board composition
 President
@@ -72,9 +88,9 @@ Secretary
 Treasurer
 : Anneke Koning
 
-##### Reward policy
+##### Reimbursement policy
 In line with Article 7 Section 3 of the statutes, the members of the board of Stichting Sol Nascente receive no reward or remuneration for the activities conducted by them in their role as board members, other than the reimbursement for costs made on behalf of the Foundation, provided they provide proof of said costs.
 
 Board members do not receive attendance fee (Dutch: ‘vacatiegeld’), as defined by the Dutch Belastingdienst.
 
-Stichting Sol Nascente does not currently employ management or staff nor does it intend to in the foreseeable future.
+Stichting Sol Nascente does not currently employ management or other staff nor does it intend to in the foreseeable future.
