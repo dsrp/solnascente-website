@@ -7,8 +7,9 @@ A Stichting is the Dutch equivalent of a foundation obliged to have a deed drawn
 
 This information was drawn up to satisfy the legal requirement to obtain the status of a public benefit organization (in Dutch: [Algemeen Nut Beogende Instelling](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/goede_doelen/algemeen_nut_beogende_instellingen/wat_is_een_anbi), or henceforth: ANBI).
 
-##### Mission
-Sol Nascente is a regenerative initiative that longs to reforest Portugal and Spain by proving that a forest can be ecologically sound while also being wildly productive. In the process, we believe that committed people and communities can benefit culturally and economically from the stewarding of degraded lands into forests that resist wildfire and flourish in the age of climate crisis.
+##### Objective
+Stichting Sol Nascente has set at its objective to stimulate nature conservation, mostly focused on but not limited to, the transformation of degraded landscapes into productive community-based forest ecology;
+and furthermore all that in the broadest sense is related to, belongs to, and/or could be beneficial to the above mentioned.
 
 #### Policy Plan 2019-2023
 Our 5-year policy plan was agreed on by the board of Stichting Sol Nascente on the 3rd of Octobre, 2019. The policy plan will be adjusted at the beginning of every calendar year or whenever the board considers it necessary.
