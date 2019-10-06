@@ -34,7 +34,7 @@ The main features of our policy plan are:
 As 2019 is the founding year of our foundation, we have yet to publish reports on our past activities. Starting 2020, Stichting Sol Nascente will publish annual reports in the first half of the year, detailing our activities, including up-to-date financial statements and balance sheets.
 
 #### Practical information
-Full name of organisation
+Full name of organization
 : Stichting Sol Nascente
 
 RSIN/Fiscal number
