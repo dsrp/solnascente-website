@@ -8,8 +8,8 @@ The website for Sol Nascente, statically rendered with [Hugo](https://gohugo.io/
 
 ## Getting started
 * Clone the repo: `git clone --recurse-submodules https://github.com/dsrp/solnascente-website.git`
-* Open the project folder: `cd solnascente-website`
 
 ## Running the website
+* Open the project folder: `cd solnascente-website`
 * Render and watch for changes: `hugo server -w`
 * Open [http://localhost:1313/](http://localhost:1313/) in your browser.
