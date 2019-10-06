@@ -45,7 +45,7 @@ KvK/Chamber of Commerce number
 
 ##### Contact information
 Contact person
-: Diego Reimondez
+: Mathijs de Bruin
 
 Email
 : info@solnascente.eu
