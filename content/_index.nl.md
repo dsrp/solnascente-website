@@ -1,6 +1,6 @@
 ---
 title: "Sol Nascente"
-h3: "Woongemeenschappen waar bomen en mensen groeien en opbloeien"
+h3: "Groeiende en bloeiende leefgemeenschappen van bomen en mensen"
 h4: ["Verwaarloosde plattelandsgemeenschappen rehabiliteren", "Verzwakte gronden herbebossen", "Lokale economieën aanjagen"]
 
 learnMore: "Kom meer te weten!"
