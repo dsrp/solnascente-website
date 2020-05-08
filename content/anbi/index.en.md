@@ -31,8 +31,30 @@ The main features of our policy plan are:
 4. Research
 5. Education
 
-#### Report of activities and Financial accountability
-As 2019 is the founding year of our foundation, we have yet to publish reports on our past activities. Starting 2020, Stichting Sol Nascente will publish annual reports in the first half of the year, detailing our activities, including up-to-date financial statements and balance sheets.
+#### Maintaining the ANBI status
+To maintain the ANBI status organisations must meet [certain conditions](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/goede_doelen/algemeen_nut_beogende_instellingen/welke_verplichtingen_heeft_een_anbi). One of these conditions is the obligation to [publish ANBI data](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/goede_doelen/algemeen_nut_beogende_instellingen/gegevens_van_een_anbi_publiceren_op_een_internetsite/gegevens_van_een_anbi_publiceren_op_een_internetsite) on the internet, hence this page.
+
+#### Report of activities
+The ANBI data to be published needs to include an up-to-date report of the activities performed. As 2019 is the founding year of our foundation, here you will find these reports starting from 2019. This paragraph will be updated at the beginning of every new calendar year for activities in the year that just ended.
+
+[View Activity Report 2019](/anbi_obligations_2019/Activity_Report_2019.pdf) (PDF)
+
+#### Financial accountability
+[Financial accountability](https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/zakelijk/bijzondere_regelingen/goede_doelen/algemeen_nut_beogende_instellingen/gegevens_van_een_anbi_publiceren_op_een_internetsite/financiele_verantwoording_publiceren) forms an important part of the ANBI data to be published. This has to be done within 6 months after the end of the financial year. Here you will find our financial reports starting from 2019.
+
+[View Financial Report 2019](/anbi_obligations_2019/Financial_Report_2019.pdf) (PDF)
+
+#### Published as a service
+As stichting Sol Nascente strives to be a regenerative, open source initiative we also publish the documents that helped us to be sure that we meet and maintain the legal conditions of an ANBI organization. We publish these on a free to use base under a [Creative Commons CC BY-NC-SA 4.0 license, Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+No rights can be granted to this information or the usage of it.
+
+If you find these documents useful, please send us an [email](mailto:info@solnascente.eu)
+
+[Checklists ANBI status](/publish_as_a_service/Checklists_ANBI_status.pdf) (PDF)
+
+[Obligations Kamer van Koophandel](/publish_as_a_service/Obligations_Kamer_van_Koophandel.pdf) (PDF)
+
+[Setting up a balance sheet](/publish_as_a_service/Setting_up_a_balance_sheet.pdf) (PDF)
 
 #### Practical information
 Full name of organization
@@ -55,10 +77,10 @@ Phone
 : ‭‭+31 85 785 33 35‬
 
 Address
-: Bachstraat 664<br>
-2324 HG<br>
-Leiden<br>
-The Netherlands
+: Bachstraat 664,
+  2324 HG,
+  Leiden, 
+  The Netherlands
 
 Website
 : https://solnascente.eu
@@ -87,7 +109,7 @@ Secretary
 : Mathijs de Bruin
 
 Treasurer
-: Anneke Koning
+: Frank van Doremalen
 
 ##### Reimbursement policy
 In line with Article 7 Section 3 of the statutes, the members of the board of Stichting Sol Nascente receive no reward or remuneration for the activities conducted by them in their role as board members, other than the reimbursement for costs made on behalf of the Foundation, provided they provide proof of said costs.
