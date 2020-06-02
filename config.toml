@@ -26,7 +26,7 @@ taxonomies = false
 [params]
   facebook = "https://facebook.com/solnascente.eu"
   instagram = "https://instagram.com/solnascente.eu/"
-  mastodon = "https://scholar.social/@solnascente_eu"
+  mastodon = "https://social.weho.st/@solnascente_eu"
   twitter = "https://twitter.com/solnascente_eu"
 
   custom_css = ["css/custom.css", "css/nav.css"]
