@@ -23,6 +23,10 @@ taxonomies = false
     weight = 3
     languageName = "Español"
 
+  [languages.nl]
+    weight = 4
+    languageName = "Nederlands"
+
 [params]
   facebook = "https://facebook.com/solnascente.eu"
   instagram = "https://instagram.com/solnascente.eu/"
